@@ -2499,3 +2499,15 @@ body.mobile .animated {
 	margin-bottom: 10px;
 	color: #000;
  }
+
+
+ #asd{
+	 font-size: 50px !important;
+	 /* word-spacing: 20px; */
+	 letter-spacing: 20px;
+	 /* float: left; */
+	 margin-top: 30px !important;
+ }
+ #as{
+	 /* float: left;position: relative; */
+ }
