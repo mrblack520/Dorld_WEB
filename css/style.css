@@ -167,7 +167,7 @@ p.lead {
 }
 
 a, a > * {
-	color: #2a6496;
+	color: rgb(17, 136, 221);
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -1547,7 +1547,7 @@ textarea::-webkit-input-placeholder {
 	right: 0;
 	z-index: 0;
 	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
+	-moz-transition:	 all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
@@ -2507,12 +2507,47 @@ body.mobile .animated {
 
 
  #asd{
-	 font-size: 50px !important;
+	 font-size: 100px !important;
 	 /* word-spacing: 20px; */
-	 letter-spacing: 20px;
-	 /* float: left; */
-	 margin-top: 30px !important;
+	 letter-spacing: 10px;
+	 margin-top: 20px !important;
+	 font-weight: 600 !important;
+	 font-family: 'Eczar', serif;
+font-family: 'Libre Baskerville', serif;
  }
- #as{
-	 /* float: left;position: relative; */
- }
+#as{
+	font-size: 30px;
+	margin-top: 30px !important;
+	font-family: 'Eczar', serif;
+font-family: 'Libre Baskerville', serif;
+}
+.nav-link{
+	font-family: 'Eczar', serif !important;
+	font-family: 'Libre Baskerville', serif !important;
+	font-size: 15px !important;
+}
+@media (max-width:600px){
+	
+	#asd{
+		font-size: 50px !important;
+		/* word-spacing: 20px; */
+		letter-spacing: 10px;
+		margin-top: 20px !important;
+		margin-left: 30px !important;
+		font-weight: 600 !important;
+		font-family: 'Eczar', serif;
+   font-family: 'Libre Baskerville', serif;
+	}
+   #as{
+	   font-size: 20px;
+	   margin-top: 30px !important;
+	margin-left: 0px !important;
+	   font-family: 'Eczar', serif;
+   font-family: 'Libre Baskerville', serif;
+   }
+   .nav-link{
+	   font-family: 'Eczar', serif !important;
+	   font-family: 'Libre Baskerville', serif !important;
+	   font-size: 15px !important;
+   }
+}
