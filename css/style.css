@@ -2526,6 +2526,9 @@ font-family: 'Libre Baskerville', serif;
 	font-family: 'Libre Baskerville', serif !important;
 	font-size: 15px !important;
 }
+.scrool{
+	display: block !important;
+}
 @media (max-width:600px){
 	
 	#asd{
@@ -2550,4 +2553,7 @@ font-family: 'Libre Baskerville', serif;
 	   font-family: 'Libre Baskerville', serif !important;
 	   font-size: 15px !important;
    }
+}
+.mh-about-tag {
+	border-radius: 50% !important;
 }
