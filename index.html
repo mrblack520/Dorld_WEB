@@ -957,15 +957,15 @@ init()
 animate()
 
 function init () {
-  camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 5, 2000)
-  camera.position.z = 500
+  camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 5, 1500)
+  camera.position.z = 200
 
   scene = new THREE.Scene()
   scene.fog = new THREE.FogExp2(0x0000ff, 0.001)
 
   const geometry = new THREE.BufferGeometry()
   const vertices = []
-  const size = 2000
+  const size = 3000
 
   for ( let i = 0; i < 20000; i ++ ) {
     const x = (Math.random() * size + Math.random() * size) / 2 - size / 2
@@ -978,7 +978,7 @@ function init () {
   geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3))
 
   material = new THREE.PointsMaterial({
-    size: 2,
+    size: 1,
     color: 0xffffff,
   })
 
@@ -1036,7 +1036,7 @@ function render () {
          canvas{
         position: absolute;
         top: 0%;
-        height: 500px;
+        height: 300px;
         width: 600px;
     }   
     

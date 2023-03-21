@@ -23,7 +23,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	    font-family: 'Lato', sans-serif;
 }
-
+.mh-about{
+	margin-top: 200px !important;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
