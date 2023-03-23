@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	    font-family: 'Lato', sans-serif;
+		/* overflow: scroll; */
 }
 .mh-about{
 	margin-top: 200px !important;
