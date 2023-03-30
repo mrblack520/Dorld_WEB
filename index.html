@@ -890,7 +890,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<body style="display: block;">
+<body>
                  <script>
 
                     let camera
@@ -907,7 +907,7 @@
                     
                     function init () {
                     camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 5, 1500)
-                    camera.position.z = 200
+                    camera.position.z = 600
                     
                     scene = new THREE.Scene()
                     scene.fog = new THREE.FogExp2(0x0000ff, 0.001)
@@ -972,12 +972,7 @@
                     scene.rotation.x += 0.001
                     scene.rotation.y += 0.002
                     }
-
-                    function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
-                    
+         
                         </script>
                         </body>
 </html>
