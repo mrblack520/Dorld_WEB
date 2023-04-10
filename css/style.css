@@ -1,14 +1,9 @@
 /* ==================================================================
 	1.0 CSS Reset
 ================================================================== */
-
-body {
-	padding: 25px !important;
-	background-color: white !important;
-	color: black !important;
-	font-size: 25px !important;
-  }
-  
+body{
+	zoom: 90%;
+}
   .dark-mode {
 	background-color: black;
 	color: white;
@@ -612,6 +607,9 @@ textarea::-webkit-input-placeholder {
     height: 128px;
     position: absolute;
     left: 50%;
+	margin: 0%;
+	padding: 0%;
+
     top: 50%;
     background-image: url(images/loading-animation.html); 
     background-repeat: no-repeat;
@@ -2542,31 +2540,6 @@ font-family: 'Libre Baskerville', serif;
 }
 .scrool{
 	display: block !important;
-}
-@media (max-width:600px){
-	
-	#asd{
-		font-size: 50px !important;
-		/* word-spacing: 20px; */
-		letter-spacing: 10px;
-		margin-top: 20px !important;
-		margin-left: 30px !important;
-		font-weight: 600 !important;
-		font-family: 'Eczar', serif;
-   font-family: 'Libre Baskerville', serif;
-	}
-   #as{
-	   font-size: 20px;
-	   margin-top: 30px !important;
-	margin-left: 0px !important;
-	   font-family: 'Eczar', serif;
-   font-family: 'Libre Baskerville', serif;
-   }
-   .nav-link{
-	   font-family: 'Eczar', serif !important;
-	   font-family: 'Libre Baskerville', serif !important;
-	   font-size: 15px !important;
-   }
 }
 .mh-about-tag {
 	border-radius: 50% !important;
