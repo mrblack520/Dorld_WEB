@@ -1,13 +1,7 @@
 /* ==================================================================
 	1.0 CSS Reset
 ================================================================== */
-body{
-	zoom: 90%;
-}
-  .dark-mode {
-	background-color: black;
-	color: white;
-  }
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
