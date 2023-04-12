@@ -2115,12 +2115,14 @@ body.mobile .animated {
 .line-dark:after {
 	background: #999;
 }
-.dark-bga{
+/* .dark-bga{
 	height: 400px;
+	
 }
 .dark-bga1{
 	height: 480px;
-}
+
+} */
 
 .line-dark span {
 	box-shadow: inset 0px 0px 0px 2px #999;
