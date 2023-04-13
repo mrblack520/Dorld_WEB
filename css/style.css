@@ -2123,6 +2123,9 @@ body.mobile .animated {
 	height: 480px;
 
 } */
+.form2{
+	display: none !important;
+}
 .modal-backdrop {
 	z-index: -1;
   }
