@@ -2123,7 +2123,9 @@ body.mobile .animated {
 	height: 480px;
 
 } */
-
+.modal-backdrop {
+	z-index: -1;
+  }
 .line-dark span {
 	box-shadow: inset 0px 0px 0px 2px #999;
 }
