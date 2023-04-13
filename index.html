@@ -68,6 +68,7 @@
                 <div></div> 
             </div>
         </div>
+       </div>
         <!-- End Loader -->
         
         <!--
@@ -934,9 +935,9 @@
                             </form>
                         </div>
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <div class="mh-map">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7235.144770449595!2d66.9341901228772!3d24.9466332639266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36b3d57aeb849%3A0xf6cdaeb8344f76b1!2sNaval%20Colony%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1681294925397!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                          
+                            <div class="mh-map w-100">
+                               <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7235.144770449595!2d66.9341901228772!3d24.9466332639266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36b3d57aeb849%3A0xf6cdaeb8344f76b1!2sNaval%20Colony%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1681294925397!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                        </div>
                         </div>
                         <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <div class="row">
@@ -958,7 +959,7 @@
                 </div>
             </div>
         </footer>     
-    
+   
     <!--
     ==============
     * JS Files *
@@ -1028,6 +1029,7 @@
         top: 0%;
         z-index: -999;
         overflow: scroll;
+        width: 100% !important;
         
         
     }
@@ -1037,7 +1039,7 @@
         position: absolute;
         top: 0%;
         height: 400px !important;
-        width: 100%;
+        width: 100% !important;
         display: none;
       
        
@@ -1054,6 +1056,7 @@
 <html lang="en">
 
 <body>
+    <div>
                  <script>
 
                     let camera
@@ -1137,5 +1140,6 @@
                     }
          
                         </script>
+                        </div>
                         </body>
 </html>
