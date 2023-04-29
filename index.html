@@ -53,14 +53,17 @@
         <!-- links for model
          -->
 
-         
+       
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Libre+Baskerville&display=swap" rel="stylesheet">
     </head>
     
-    <body class="dark-vertion">
+    
+    
+    <body class="dark-vertion db  ">
+        <!-- <div class="db"> -->
     <div id="bg_cover_12">
         <!-- Start Loader -->
        <div class="fx">
@@ -116,90 +119,15 @@
                         </div>
 
                         
-                                <!-- Button trigger modal -->
+                               
                                 
 
-                                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modalId">
+                                <a type="button" href="page_login.html" class="btn btn-dark ">
                                     <i class="fa fa-sign-in" aria-hidden="true"></i>
                                     Login 
-                                  </button>
+                                  </a>
                                 
-                                <!-- Modal -->
-                                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="login-wrap">
-                                                <div class="login-html">
-                                                    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-                                                    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-                                                    <div class="login-form">
-                                                        <div class="sign-in-htm">
-                                                            <div class="group">
-                                                                <label for="user" class="label">Username</label>
-                                                                <input id="user" type="text" class="input">
-                                                            </div>
-                                                            <div class="group">
-                                                                <label for="pass" class="label">Password</label>
-                                                                <input id="pass" type="password" class="input" data-type="password">
-                                                            </div>
-                                                            <div class="group">
-                                                                <input id="check" type="checkbox" class="check" checked>
-                                                                <label for="check"><span class="icon"></span> Keep me Signed in</label>
-                                                            </div>
-                                                            <div class="group">
-                                                                <input type="submit" class="button" value="Sign In">
-                                                            </div>
-                                                            <div class="hr"></div>
-                                                            <div class="foot-lnk">
-                                                                <a href="#forgot">Forgot Password?</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="sign-up-htm">
-                                                            <div class="group">
-                                                                <label for="user" class="label">Username</label>
-                                                                <input id="user" type="text" class="input">
-                                                            </div>
-                                                            <div class="group">
-                                                                <label for="pass" class="label">Password</label>
-                                                                <input id="pass" type="password" class="input" data-type="password">
-                                                            </div>
-                                                            <div class="group">
-                                                                <label for="pass" class="label">Repeat Password</label>
-                                                                <input id="pass" type="password" class="input" data-type="password">
-                                                            </div>
-                                                            <div class="group">
-                                                                <label for="pass" class="label">Email Address</label>
-                                                                <input id="pass" type="text" class="input">
-                                                            </div>
-                                                            <div class="group">
-                                                                <input type="submit" class="button" value="Sign Up">
-                                                            </div>
-                                                            <div class="hr"></div>
-                                                            <div class="foot-lnk">
-                                                                <label for="tab-1">Already Member?</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <script>
-                                    var modalId = document.getElementById('modalId');
-                                
-                                    modalId.addEventListener('show.bs.modal', function (event) {
-                                          // Button that triggered the modal
-                                          let button = event.relatedTarget;
-                                          // Extract info from data-bs-* attributes
-                                          let recipient = button.getAttribute('data-bs-whatever');
-                                
-                                        // Use above variables to manipulate the DOM
-                                    });
-                                </script>
-                                
-
+                              
                     </nav>
                 </div>
             </div>
@@ -244,8 +172,10 @@
             ABOUT
         =================
         -->
-      
-        <div class="container">
+
+
+        
+    <div class="container">
         <section class="mh-about" id="mh-about">
             <div class="container">
                 <div class="row section-separator">
@@ -278,7 +208,8 @@
                 </div>
             </div>
         </section>
-        
+    </div>
+
         <!--
         ===================
            SERVICE
@@ -1013,9 +944,14 @@
                         </div>
                     </div>
                 </div>
+            </footer>
             </div>
-        </footer>     
-    </div>
+          
+    </div>   
+        
+
+
+
     <!--
     ==============
     * JS Files *
@@ -1079,6 +1015,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
 </body>
+</div>
 <style>
     canvas{
         position: absolute;
@@ -1086,6 +1023,7 @@
         z-index: -999;
         overflow: scroll;
         width: 100% !important;
+        background-color: black !important;
         
         
     }
@@ -1198,3 +1136,28 @@ function change(){
 }
 
                         </script>
+
+ 
+<style>
+
+.db{
+      
+      background-image: url("./assets/images/sd.jpg") ;
+      
+      /* background-color: rgba(0,0,0,1); */
+      
+      /* position: fixed; */
+      /* background-position: center;  */
+      /* background-size: cover; */
+      background-repeat: no-repeat;
+      /* background-size:auto; */
+      /* background-position-y: center; */
+      background-size: cover;
+      width: 100%; 
+      /* z-index: -999; */
+      background-attachment: fixed;
+
+      /* filter: brightness(50%); */
+      
+      }
+    </style>
