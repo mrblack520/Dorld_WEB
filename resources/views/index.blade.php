@@ -293,7 +293,7 @@
 
                               
 
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
+                                <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
                                         <img src="assets/images/gal/art/1.jpg" alt="img04">
                                         <figcaption class="fig-caption">
@@ -1266,12 +1266,16 @@
                                             <a href="assets/images/gal/shirt/6.jpeg" data-fancybox data-src="#s78"></a>
                                         </figcaption>
                                     </figure>
-                                </div>
+                                </div> -->
 
+                                
                                 
                             </div> <!-- End: .grid .project-gallery -->
                         </div> <!-- End: .grid .project-gallery -->
                     </div> <!-- End: .part -->
+                    <div class="btn-form col-sm-12">
+                        <button  onClick="showCardWithPagination()" class="btn btn-fill btn-block" id="form-submit">Load more</button>
+                    </div>
                 </div> <!-- End: .row -->
 
 
@@ -3331,6 +3335,7 @@
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/js/cardPagination.js"></script>
 
 </body>
 </div>
