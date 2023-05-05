@@ -289,30 +289,31 @@
                             </ul>
                         </div>
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <div class="portfolioContainer row">
+                            
+                        <div class="portfolioContainer row">
 
                               
 
-                                <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/1.jpg" alt="img04">
+                                        <img src="assets/images/gal/img1.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/1.jpg" data-fancybox data-src="#s1"></a>
+                                            <a href="assets/images/gal/img1.jpg"ata-fancybox data-src="#s1"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12  mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/2.jpg" alt="img04">
+                                        <img src="assets/images/gal/img2.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/2.jpg" data-fancybox data-src="#s2"></a>
+                                            <a href="assets/images/gal/img2.jpg"ata-fancybox data-src="#s2"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -320,120 +321,120 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/gal/web/Snas.png" alt="img04">
+                                        <img src="assets/images/gal/img3.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/web/Snas.png" data-fancybox data-src="#s79"></a>
+                                            <a href="assets/images/gal/img3.jpg" data-fancybox data-src="#s79"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/3.png" alt="img04">
+                                        <img src="assets/images/gal/img4.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/3.png" data-fancybox data-src="#s3"></a>
+                                            <a href="assets/images/gal/img4.jpg"ata-fancybox data-src="#s3"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/4.jpg" alt="img04">
+                                        <img src="assets/images/gal/img5.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/4.jpg" data-fancybox data-src="#s4"></a>
+                                            <a href="assets/images/gal/img5.jpg"ata-fancybox data-src="#s4"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/5.jpg" alt="img04">
+                                        <img src="assets/images/gal/img6.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/5.jpg" data-fancybox data-src="#s5"></a>
+                                            <a href="assets/images/gal/img6.jpg"ata-fancybox data-src="#s5"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/gal/web/Dorld.png" alt="img04">
+                                        <img src="assets/images/gal/img81.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/web/Dorld.png" data-fancybox data-src="#s80"></a>
+                                            <a href="assets/images/gal/img81.jpg" data-fancybox data-src="#s80"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/6.jpg" alt="img04">
+                                        <img src="assets/images/gal/img8.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/6.jpg" data-fancybox data-src="#s6"></a>
+                                            <a href="assets/images/gal/img8.jpg"ata-fancybox data-src="#s6"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/7.jpg" alt="img04">
+                                        <img src="assets/images/gal/img9.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/7.jpg" data-fancybox data-src="#s7"></a>
+                                            <a href="assets/images/gal/img9.jpg"ata-fancybox data-src="#s7"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/8.jpg" alt="img04">
+                                        <img src="assets/images/gal/img10.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/8.jpg" data-fancybox data-src="#s8"></a>
+                                            <a href="assets/images/gal/img10.jpg"ata-fancybox data-src="#s8"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/9.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img11.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/9.jpeg" data-fancybox="gallery" data-src="#s9"></a>
+                                            <a href="assets/images/gal/img11.jpg"ata-fancybox="c="#s9"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/10.png" alt="img04">
+                                        <img src="assets/images/gal/img12.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/10.png" data-fancybox="gallery" data-src="#s10"></a>
+                                            <a href="assets/images/gal/img12.jpg"data-fancybox="c="#s10"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -441,36 +442,36 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/11.jpg" alt="img04">
+                                        <img src="assets/images/gal/img13.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/11.jpg" data-fancybox data-src="#s11"></a>
+                                            <a href="assets/images/gal/img13.jpg"data-fancybox data-src="#s11"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/12.jpg" alt="img04">
+                                        <img src="assets/images/gal/img14.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/12.jpg" data-fancybox data-src="#s12"></a>
+                                            <a href="assets/images/gal/img14.jpg"data-fancybox data-src="#s12"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/13.jpg" alt="img04">
+                                        <img src="assets/images/gal/img15.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/13.jpg" data-fancybox data-src="#s13"></a>
+                                            <a href="assets/images/gal/img15.jpg"data-fancybox data-src="#s13"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -478,204 +479,204 @@
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/14.png" alt="img04">
+                                        <img src="assets/images/gal/img16.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/14.png" data-fancybox data-src="#s14"></a>
+                                            <a href="assets/images/gal/img16.jpg"data-fancybox data-src="#s14"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/15.png" alt="img04">
+                                        <img src="assets/images/gal/img17.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/15.png" data-fancybox data-src="#s15"></a>
+                                            <a href="assets/images/gal/img17.jpg"data-fancybox data-src="#s15"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/16.jpg" alt="img04">
+                                        <img src="assets/images/gal/img18.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/16.jpg" data-fancybox data-src="#s16"></a>
+                                            <a href="assets/images/gal/img18.jpg"data-fancybox data-src="#s16"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/17.jpg" alt="img04">
+                                        <img src="assets/images/gal/img19.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/17.jpg" data-fancybox data-src="#s17"></a>
+                                            <a href="assets/images/gal/img19.jpg"data-fancybox data-src="#s17"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/18.jpg" alt="img04">
+                                        <img src="assets/images/gal/img20.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/18.jpg" data-fancybox data-src="#s18"></a>
+                                            <a href="assets/images/gal/img20.jpg"data-fancybox data-src="#s18"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/19.jpg" alt="img04">
+                                        <img src="assets/images/gal/img21.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/19.jpg" data-fancybox data-src="#s19"></a>
+                                            <a href="assets/images/gal/img21.jpg"data-fancybox data-src="#s19"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/20.jpg" alt="img04">
+                                        <img src="assets/images/gal/img22.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/20.jpg" data-fancybox data-src="#s20"></a>
+                                            <a href="assets/images/gal/img22.jpg"data-fancybox data-src="#s20"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/21.jpg" alt="img04">
+                                        <img src="assets/images/gal/img23.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/21.jpg" data-fancybox data-src="#s21"></a>
+                                            <a href="assets/images/gal/img23.jpg"data-fancybox data-src="#s21"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/22.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img24.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/22.jpeg" data-fancybox data-src="#s22"></a>
+                                            <a href="assets/images/gal/img24.jpg"data-fancybox data-src="#s22"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/23.jpg" alt="img04">
+                                        <img src="assets/images/gal/img25.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/23.jpg" data-fancybox data-src="#s23"></a>
+                                            <a href="assets/images/gal/img25.jpg"data-fancybox data-src="#s23"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/24.jpg" alt="img04">
+                                        <img src="assets/images/gal/img26.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/24.jpg" data-fancybox data-src="#s24"></a>
+                                            <a href="assets/images/gal/img26.jpg"data-fancybox data-src="#s24"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/25.jpg" alt="img04">
+                                        <img src="assets/images/gal/img27.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/25.jpg" data-fancybox data-src="#s25"></a>
+                                            <a href="assets/images/gal/img27.jpg"data-fancybox data-src="#s25"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/26.jpg" alt="img04">
+                                        <img src="assets/images/gal/img28.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/26.jpg" data-fancybox data-src="#s26"></a>
+                                            <a href="assets/images/gal/img28.jpg"data-fancybox data-src="#s26"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/27.jpg" alt="img04">
+                                        <img src="assets/images/gal/img29.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/27.jpg" data-fancybox data-src="#s27"></a>
+                                            <a href="assets/images/gal/img29.jpg"data-fancybox data-src="#s27"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/28.jpg" alt="img04">
+                                        <img src="assets/images/gal/img30.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/28.jpg" data-fancybox data-src="#s28"></a>
+                                            <a href="assets/images/gal/img30.jpg"data-fancybox data-src="#s28"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/29.png" alt="img04">
+                                        <img src="assets/images/gal/img31.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/29.png" data-fancybox data-src="#s29"></a>
+                                            <a href="assets/images/gal/img31.jpg"data-fancybox data-src="#s29"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art/30.jpg" alt="img04">
+                                        <img src="assets/images/gal/img32.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art/30.jpg" data-fancybox data-src="#s30"></a>
+                                            <a href="assets/images/gal/img32.jpg"data-fancybox data-src="#s30"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -684,120 +685,120 @@
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/1.jpg" alt="img04">
+                                        <img src="assets/images/gal/img33.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/1.jpg" data-fancybox data-src="#s31"></a>
+                                            <a href="assets/images/gal/img33.jpg"data-fancybox data-src="#s31"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12  mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/2.jpg" alt="img04">
+                                        <img src="assets/images/gal/img34.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/2.jpg" data-fancybox data-src="#s32"></a>
+                                            <a href="assets/images/gal/img34.jpg"data-fancybox data-src="#s32"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/3.jpg" alt="img04">
+                                        <img src="assets/images/gal/img35.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/3.jpg" data-fancybox data-src="#s33"></a>
+                                            <a href="assets/images/gal/img35.jpg"data-fancybox data-src="#s33"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/4.jpg" alt="img04">
+                                        <img src="assets/images/gal/img36.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/4.jpg" data-fancybox data-src="#s34"></a>
+                                            <a href="assets/images/gal/img36.jpg"data-fancybox data-src="#s34"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/5.jpg" alt="img04">
+                                        <img src="assets/images/gal/img37.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/5.jpg" data-fancybox data-src="#s35"></a>
+                                            <a href="assets/images/gal/img37.jpg"data-fancybox data-src="#s35"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/6.jpg" alt="img04">
+                                        <img src="assets/images/gal/img38.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/6.jpg" data-fancybox data-src="#s36"></a>
+                                            <a href="assets/images/gal/img38.jpg"data-fancybox data-src="#s36"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/7.jpg" alt="img04">
+                                        <img src="assets/images/gal/img39.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/7.jpg" data-fancybox data-src="#s37"></a>
+                                            <a href="assets/images/gal/img39.jpg"data-fancybox data-src="#s37"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/8.jpg" alt="img04">
+                                        <img src="assets/images/gal/img40.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/8.jpg" data-fancybox data-src="#s38"></a>
+                                            <a href="assets/images/gal/img40.jpg"data-fancybox data-src="#s38"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/9.jpg" alt="img04">
+                                        <img src="assets/images/gal/img41.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/9.jpg" data-fancybox="gallery" data-src="#s39"></a>
+                                            <a href="assets/images/gal/img41.jpg"data-fancybox="c="#s39"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/10.jpg" alt="img04">
+                                        <img src="assets/images/gal/img42.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/10.jpg" data-fancybox="gallery" data-src="#40"></a>
+                                            <a href="assets/images/gal/img42.jpg" data-fancybox="c="#40"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -805,36 +806,36 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/11.jpg" alt="img04">
+                                        <img src="assets/images/gal/img43.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/11.jpg" data-fancybox data-src="#s41"></a>
+                                            <a href="assets/images/gal/img43.jpg" data-fancybox data-src="#s41"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/12.jpg" alt="img04">
+                                        <img src="assets/images/gal/img44.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/12.jpg" data-fancybox data-src="#s42"></a>
+                                            <a href="assets/images/gal/img44.jpg" data-fancybox data-src="#s42"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/13.jpg" alt="img04">
+                                        <img src="assets/images/gal/img45.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/13.jpg" data-fancybox data-src="#s43"></a>
+                                            <a href="assets/images/gal/img45.jpg" data-fancybox data-src="#s43"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -842,84 +843,84 @@
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/14.jpg" alt="img04">
+                                        <img src="assets/images/gal/img46.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/14.jpg" data-fancybox data-src="#s44"></a>
+                                            <a href="assets/images/gal/img46.jpg" data-fancybox data-src="#s44"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/15.jpg" alt="img04">
+                                        <img src="assets/images/gal/img47.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/15.jpg" data-fancybox data-src="#45"></a>
+                                            <a href="assets/images/gal/img47.jpg" data-fancybox data-src="#45"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/16.jpg" alt="img04">
+                                        <img src="assets/images/gal/img48.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/16.jpg" data-fancybox data-src="#s46"></a>
+                                            <a href="assets/images/gal/img48.jpg" data-fancybox data-src="#s46"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/17.jpg" alt="img04">
+                                        <img src="assets/images/gal/img49.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/17.jpg" data-fancybox data-src="#s47"></a>
+                                            <a href="assets/images/gal/img49.jpg" data-fancybox data-src="#s47"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/18.jpg" alt="img04">
+                                        <img src="assets/images/gal/img50.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/18.jpg" data-fancybox data-src="#s48"></a>
+                                            <a href="assets/images/gal/img50.jpg" data-fancybox data-src="#s48"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/19.jpg" alt="img04">
+                                        <img src="assets/images/gal/img51.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/19.jpg" data-fancybox data-src="#s49"></a>
+                                            <a href="assets/images/gal/img51.jpg" data-fancybox data-src="#s49"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/20.jpg" alt="img04">
+                                        <img src="assets/images/gal/img52.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/20.jpg" data-fancybox data-src="#s50"></a>
+                                            <a href="assets/images/gal/img52.jpg" data-fancybox data-src="#s50"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -927,96 +928,96 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/21.jpg" alt="img04">
+                                        <img src="assets/images/gal/img53.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/21.jpg" data-fancybox data-src="#s51"></a>
+                                            <a href="assets/images/gal/img53.jpg" data-fancybox data-src="#s51"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/22.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img54.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/22.jpeg" data-fancybox data-src="#s52"></a>
+                                            <a href="assets/images/gal/img54.jpg" data-fancybox data-src="#s52"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/23.jpg" alt="img04">
+                                        <img src="assets/images/gal/img55.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/23.jpg" data-fancybox data-src="#s53"></a>
+                                            <a href="assets/images/gal/img55.jpg" data-fancybox data-src="#s53"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/24.jpg" alt="img04">
+                                        <img src="assets/images/gal/img56.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/24.jpg" data-fancybox data-src="#s54"></a>
+                                            <a href="assets/images/gal/img56.jpg" data-fancybox data-src="#s54"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/25.jpg" alt="img04">
+                                        <img src="assets/images/gal/img57.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/25.jpg" data-fancybox data-src="#s55"></a>
+                                            <a href="assets/images/gal/img57.jpg" data-fancybox data-src="#s55"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/26.jpg" alt="img04">
+                                        <img src="assets/images/gal/img58.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/26.jpg" data-fancybox data-src="#s56"></a>
+                                            <a href="assets/images/gal/img58.jpg" data-fancybox data-src="#s56"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/27.jpg" alt="img04">
+                                        <img src="assets/images/gal/img59.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/27.jpg" data-fancybox data-src="#s57"></a>
+                                            <a href="assets/images/gal/img59.jpg" data-fancybox data-src="#s57"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/art2/28.jpg" alt="img04">
+                                        <img src="assets/images/gal/img60.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/art2/28.jpg" data-fancybox data-src="#s58"></a>
+                                            <a href="assets/images/gal/img60.jpg" data-fancybox data-src="#s58"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -1025,36 +1026,36 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/banner/2.jpg" alt="img04">
+                                        <img src="assets/images/gal/img61.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/banner/2.jpg" data-fancybox data-src="#s59"></a>
+                                            <a href="assets/images/gal/img61.jpg" data-fancybox data-src="#s59"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/banner/3.jpg" alt="img04">
+                                        <img src="assets/images/gal/img62.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/banner/3.jpg" data-fancybox data-src="#s60"></a>
+                                            <a href="assets/images/gal/img62.jpg" data-fancybox data-src="#s60"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/banner/4.jpg" alt="img04">
+                                        <img src="assets/images/gal/img63.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/banner/4.jpg" data-fancybox data-src="#s61"></a>
+                                            <a href="assets/images/gal/img63.jpg" data-fancybox data-src="#s61"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -1064,72 +1065,72 @@
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/1.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img64.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/1.jpeg" data-fancybox data-src="#s62"></a>
+                                            <a href="assets/images/gal/img64.jpg"data-fancybox data-src="#s62"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12  mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/2.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img65.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/2.jpeg" data-fancybox data-src="#s63"></a>
+                                            <a href="assets/images/gal/img65.jpg"data-fancybox data-src="#s63"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/3.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img66.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/3.jpeg" data-fancybox data-src="#s64"></a>
+                                            <a href="assets/images/gal/img66.jpg"data-fancybox data-src="#s64"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/4.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img67.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/4.jpeg" data-fancybox data-src="#s65"></a>
+                                            <a href="assets/images/gal/img67.jpg"data-fancybox data-src="#s65"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/5.png" alt="img04">
+                                        <img src="assets/images/gal/img68.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/5.png" data-fancybox data-src="#s66"></a>
+                                            <a href="assets/images/gal/img68.jpg"data-fancybox data-src="#s66"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/6.png" alt="img04">
+                                        <img src="assets/images/gal/img69.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/6.png" data-fancybox data-src="#s67"></a>
+                                            <a href="assets/images/gal/img69.jpg"data-fancybox data-src="#s67"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -1137,140 +1138,141 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/8.jpg" alt="img04">
+                                        <img src="assets/images/gal/img70.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/8.jpg" data-fancybox data-src="#s68"></a>
+                                            <a href="assets/images/gal/img70.jpg"data-fancybox data-src="#s68"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/9.jpg" alt="img04">
+                                        <img src="assets/images/gal/img71.jpg"alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/9.jpg" data-fancybox="gallery" data-src="#s69"></a>
+                                            <a href="assets/images/gal/img71.jpg"data-fancybox data-src="#s69"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/10.jpg" alt="img04">
+                                        <img src="assets/images/gal/img72.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/10.jpg" data-fancybox="gallery" data-src="#s70"></a>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                
-
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
-                                    <figure>
-                                        <img src="assets/images/gal/logo/11.jpg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Creative Design</h5>
-                                            <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/11.jpg" data-fancybox data-src="#s71"></a>
+                                            <a href="assets/images/gal/img72.jpg" data-fancybox data-src="#s70"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
                                 
+
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/logo/12.jpg" alt="img04">
+                                        <img src="assets/images/gal/img73.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/logo/12.jpg" data-fancybox data-src="#s72"></a>
+                                            <a href="assets/images/gal/img73.jpg" data-fancybox data-src="#s71"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
+                                    <figure>
+                                        <img src="assets/images/gal/img74.jpg" alt="img04">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Creative Design</h5>
+                                            <span class="sub-title">Photograpy</span>
+                                            <a href="assets/images/gal/img74.jpg" data-fancybox data-src="#s72"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/1.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img75.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/1.jpeg" data-fancybox data-src="#s73"></a>
+                                            <a href="assets/images/gal/img75.jpg" data-fancybox data-src="#s73"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12  mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/2.png" alt="img04">
+                                        <img src="assets/images/gal/img76.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/2.png" data-fancybox data-src="#s74"></a>
+                                            <a href="assets/images/gal/img76.jpg" data-fancybox data-src="#s74"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/3.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img77.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/3.jpeg" data-fancybox data-src="#s75"></a>
+                                            <a href="assets/images/gal/img77.jpg" data-fancybox data-src="#s75"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/4.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img78.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/4.jpeg" data-fancybox data-src="#s76"></a>
+                                            <a href="assets/images/gal/img78.jpg" data-fancybox data-src="#s76"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/5.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img79.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/5.jpeg" data-fancybox data-src="#s77"></a>
+                                            <a href="assets/images/gal/img79.jpg" data-fancybox data-src="#s77"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/shirt/6.jpeg" alt="img04">
+                                        <img src="assets/images/gal/img80.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/shirt/6.jpeg" data-fancybox data-src="#s78"></a>
+                                            <a href="assets/images/gal/img80.jpg" data-fancybox data-src="#s78"></a>
                                         </figcaption>
                                     </figure>
-                                </div> -->
+                                </div>
 
                                 
                                 
-                            </div> <!-- End: .grid .project-gallery -->
+                            </div>
+                        <!-- End: .grid .project-gallery -->
                         </div> <!-- End: .grid .project-gallery -->
                     </div> <!-- End: .part -->
                     <div class="btn-form col-sm-12">
@@ -1299,7 +1301,7 @@
 
                 
 
-                                <img src="assets/images/gal/art/1.jpg" alt="" class="img-fluid">
+                                <img src="assets/images/gal/art/img1.jpg" alt="" class="img-fluid">
 
                                  </div>
                         </div>
@@ -1514,7 +1516,7 @@
                 </div>
                 <div class="col-sm-7">
                     <div class="mh-portfolio-modal-img">
-                        <img src="assets/images/gal/art/11.jpg" alt="" class="img-fluid">
+                        <img src="assets/images/gal/art/1img1.jpg" alt="" class="img-fluid">
                          </div>
                 </div>
             </div>
@@ -1724,7 +1726,7 @@
                 </div>
                 <div class="col-sm-7">
                     <div class="mh-portfolio-modal-img">
-                        <img src="assets/images/gal/art/21.jpg" alt="" class="img-fluid">
+                        <img src="assets/images/gal/art/2img1.jpg" alt="" class="img-fluid">
                          </div>
                 </div>
             </div>
@@ -1940,7 +1942,7 @@
 
     
 
-                    <img src="assets/images/gal/art2/1.jpg" alt="" class="img-fluid">
+                    <img src="assets/images/gal/art2/img1.jpg" alt="" class="img-fluid">
 
                      </div>
             </div>
@@ -2152,7 +2154,7 @@
             </div>
             <div class="col-sm-7">
                 <div class="mh-portfolio-modal-img">
-                    <img src="assets/images/gal/art2/11.jpg" alt="" class="img-fluid">
+                    <img src="assets/images/gal/art2/1img1.jpg" alt="" class="img-fluid">
                      </div>
             </div>
         </div>
@@ -2362,7 +2364,7 @@
             </div>
             <div class="col-sm-7">
                 <div class="mh-portfolio-modal-img">
-                    <img src="assets/images/gal/art2/21.jpg" alt="" class="img-fluid">
+                    <img src="assets/images/gal/art2/2img1.jpg" alt="" class="img-fluid">
                      </div>
             </div>
         </div>
@@ -2800,7 +2802,7 @@
             </div>
             <div class="col-sm-7">
                 <div class="mh-portfolio-modal-img">
-                    <img src="assets/images/gal/logo/11.jpg" alt="" class="img-fluid">
+                    <img src="assets/images/gal/logo/1img1.jpg" alt="" class="img-fluid">
                      </div>
             </div>
         </div>
