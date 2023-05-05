@@ -321,12 +321,12 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                     <figure>
-                                        <img src="assets/images/gal/img3.jpg" alt="img04">
+                                        <img src="assets/images/gal/img80.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img3.jpg" data-fancybox data-src="#s79"></a>
+                                            <a href="assets/images/gal/img80.jpg" data-fancybox data-src="#s79"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -422,7 +422,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img11.jpg"ata-fancybox="c="#s9"></a>
+                                            <a href="assets/images/gal/img11.jpg"ata-fancybox data-src="#s9"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -434,7 +434,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img12.jpg"data-fancybox="c="#s10"></a>
+                                            <a href="assets/images/gal/img12.jpg"data-fancybox data-src="#s10"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -488,18 +488,7 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                
-                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
-                                    <figure>
-                                        <img src="assets/images/gal/img17.jpg"alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Creative Design</h5>
-                                            <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img17.jpg"data-fancybox data-src="#s15"></a>
-                                        </figcaption>
-                                    </figure>
-                                </div>
+                               
                                 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
@@ -786,7 +775,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img41.jpg"data-fancybox="c="#s39"></a>
+                                            <a href="assets/images/gal/img41.jpg"data-fancybox data-src="#s39"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -798,7 +787,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img42.jpg" data-fancybox="c="#40"></a>
+                                            <a href="assets/images/gal/img42.jpg" data-fancybox data-src="#40"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -1259,12 +1248,12 @@
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
-                                        <img src="assets/images/gal/img80.jpg" alt="img04">
+                                        <img src="assets/images/gal/img3.jpg" alt="img04">
                                         <figcaption class="fig-caption">
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Creative Design</h5>
                                             <span class="sub-title">Photograpy</span>
-                                            <a href="assets/images/gal/img80.jpg" data-fancybox data-src="#s78"></a>
+                                            <a href="assets/images/gal/img3.jpg" data-fancybox data-src="#s78"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
