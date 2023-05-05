@@ -293,7 +293,7 @@
                         <div class="portfolioContainer row">
 
                               
-
+                                    
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
                                         <img src="assets/images/gal/img1.jpg"alt="img04">
