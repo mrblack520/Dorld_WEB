@@ -412,9 +412,9 @@ const cardArr = [
 ];
 let page = 0;
 const showCardWithPagination = () => {
-    cardArr.slice(page, page + 3).map((item) => {
+    cardArr.slice(page, page + 6).map((item) => {
         cardDiv.innerHTML += `
-    <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
+    <div class="grid-item col-md-4 col-sm-6 col-xs-12 asdf mockup">
         <figure>
             <img src=${item.imagePath} alt="img04">
             <figcaption class="fig-caption">
@@ -426,7 +426,7 @@ const showCardWithPagination = () => {
         </figure>
     </div>`;
     });
-    page += 3;
+    page += 6;
 };
 showCardWithPagination();
 
