@@ -13,11 +13,11 @@
 <style>
 
   .db{
-        
+
         background-image: url("./assets/images/sd.jpg") ;
-        
+
         /* background-color: rgba(0,0,0,1); */
-        
+
         /* position: fixed; */
         /* background-position: center;  */
         /* background-size: cover; */
@@ -25,17 +25,17 @@
         /* background-size:auto; */
         /* background-position-y: center; */
         background-size: cover;
-        width: 100%; 
+        width: 100%;
         /* z-/: -999; */
         background-attachment: fixed;
-  
+
         /* filter: brightness(50%); */
-        
+
         }
-        @media (min-width: 200px )and (max-width: 900px) {  
+        @media (min-width: 200px )and (max-width: 900px) {
   .db{
     background-image: url("./assets/images/Artboard\ 1-100.jpg") ;
-    width: 100%;        
+    width: 100%;
     background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
@@ -49,7 +49,7 @@
       <link rel="shortcut icon" href="assets/images/apple-icon.png">
       <link rel="shortcut icon" sizes="16x16" href="assets/images/apple-icon-72x72.png">
       <link rel="shortcut icon" sizes="32x32" href="assets/images/apple-icon-114x114.png">
-      
+
 </head>
 <body class='pace-top db'>
 
@@ -58,7 +58,7 @@
 <div class="login">
 
 <div class="login-content">
-<form action="/ " method="POST" name="login_form">
+<form action="{{'login.post'}} " method="POST" name="login_form">
 <h1 class="text-center">Sign In</h1>
 <div class="text-inverse text-opacity-50 text-center mb-4">
 For your protection, please verify your identity.
