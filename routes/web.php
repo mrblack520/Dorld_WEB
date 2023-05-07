@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController ;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('/page_login', function () {
     return view('page_login');
 });
+Route::post('/loginuser' , [UserController::class , 'login'])->name('login.post');
 
 // the middlware routes w
 Route::middleware('userauth')->group(function(){

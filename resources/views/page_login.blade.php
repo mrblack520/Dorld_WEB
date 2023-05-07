@@ -59,20 +59,21 @@
 
 <div class="login-content">
 <form action="{{'login.post'}} " method="POST" name="login_form">
+    @csrf
 <h1 class="text-center">Sign In</h1>
 <div class="text-inverse text-opacity-50 text-center mb-4">
 For your protection, please verify your identity.
 </div>
 <div class="mb-3">
 <label class="form-label">Email Address <span class="text-danger">*</span></label>
-<input type="text" class="form-control form-control-lg bg-inverse bg-opacity-5" value="" placeholder="">
+<input type="text" name="email" class="form-control form-control-lg bg-inverse bg-opacity-5" value="" placeholder="">
 </div>
 <div class="mb-3">
 <div class="d-flex">
 <label class="form-label">Password <span class="text-danger">*</span></label>
 <a href="#" class="ms-auto text-inverse text-decoration-none text-opacity-50">Forgot password?</a>
 </div>
-<input type="password" class="form-control form-control-lg bg-inverse bg-opacity-5" value="" placeholder="">
+<input type="password" name="password" class="form-control form-control-lg bg-inverse bg-opacity-5" value="" placeholder="">
 </div>
 <div class="mb-3">
 <div class="form-check">
