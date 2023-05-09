@@ -20,7 +20,7 @@ class UserController extends Controller
         if($check_login == false)
         {
             // $userData = User::where('id' , $check_login[0]->id)->first();
-            return redirect('page_login')->with('error' , 'No Data found Invalid Crediantals');
+            return redirect('page_login')-> with('error' , 'No Data found Invalid Crediantals');
 
         }
         else
