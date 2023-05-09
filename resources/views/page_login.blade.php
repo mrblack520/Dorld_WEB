@@ -58,7 +58,7 @@
 <div class="login">
 
 <div class="login-content">
-<form action="{{'login.post'}} " method="POST" name="login_form">
+<form action="{{route('login.post')}} " method="POST" name="login_form">
     @csrf
 <h1 class="text-center">Sign In</h1>
 <div class="text-inverse text-opacity-50 text-center mb-4">

@@ -22,7 +22,7 @@ Route::get('/page_login', function () {
 Route::post('/loginuser' , [UserController::class , 'login'])->name('login.post');
 
 // the middlware routes w
-Route::middleware('userauth')->group(function(){
+Route::middleware('UserAuthentication')->group(function(){
 
     Route::get('/dashboard', function () {
         return view('dashboard');

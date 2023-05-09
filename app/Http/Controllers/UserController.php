@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Auth;
 class UserController extends Controller
 {
     public function login(Request $request)
@@ -12,20 +13,21 @@ class UserController extends Controller
         $email       = $request->email ;
         $password    = $request->password ;
 
-        $check_login = User::where(['password' => $password , 'email' => $email])->first();
-
+        $check_login = Auth::attempt(['password' => $password , 'email' => $email]);
+        dd($check_login);
         //check if a user exists with the given crediantals
 
-        if(isset($check_login[0]->id))
+        if($check_login == false)
         {
-            $userData = User::where('id' , $check_login[0]->id)->first();
-            session()->put('userauth' , $userData); // stored data into userauth session
-            return redirect('dashboard');
+            // $userData = User::where('id' , $check_login[0]->id)->first();
+            return redirect('page_login')->with('error' , 'No Data found Invalid Crediantals');
 
         }
         else
         {
-            return redirect()->back()->with('error' , 'No Data found Invalid Crediantals');
+            
+            session()->put('userauth'); // stored data into userauth session
+            return redirect('dashboard');
         }
     }
 }
