@@ -290,10 +290,10 @@
                         </div>
                         <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             
-                        <div class="portfolioContainer row">
+                        
 
-                              
-                                    
+
+                                <section class="portfolioContainer row" id="section1">    
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
                                         <img src="assets/images/gal/img1.jpg"alt="img04">
@@ -415,7 +415,25 @@
                                     </figure>
                                 </div>
 
-                              
+                                </section>
+
+                                <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link" href="#">6</a></li>
+    <li class="page-item"><a class="page-link" href="#">7</a></li>
+    <li class="page-item"><a class="page-link" href="#">8</a></li>
+
+  
+  </ul>
+</nav>
+
+                                <section class="portfolioContainer row" id="section2">
 
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
@@ -528,6 +546,11 @@
                                     </figure>
                                 </div>
                                 
+                                </section>
+
+
+
+                                <section class="portfolioContainer row" id="section3">
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
                                     <figure>
                                         <img src="assets/images/gal/img21.jpg"alt="img04">
@@ -648,6 +671,10 @@
         </figcaption>
     </figure>
 </div>
+
+</section>
+
+<section class="portfolioContainer row" id="section4">
 
 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
     <figure>
@@ -771,6 +798,10 @@
     </figure>
 </div>
 
+</section>
+
+<section class="portfolioContainer row " id="section5">
+
 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
     <figure>
         <img src="assets/images/gal/img41.jpg"alt="img04">
@@ -892,6 +923,9 @@
         </figcaption>
     </figure>
 </div>
+</section>
+
+<section class="portfolioContainer row" id="section6">
 
 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
     <figure>
@@ -1014,6 +1048,8 @@
     </figure>
 </div>
 
+</section>
+<section class="portfolioContainer row" id="section7">
 
 
 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
@@ -1139,7 +1175,9 @@
         </figcaption>
     </figure>
 </div>
+</section>
 
+<section class="portfolioContainer row" id="section8">
 <div class="grid-item col-md-4 col-sm-6 col-xs-12 mockup">
     <figure>
         <img src="assets/images/gal/img71.jpg"alt="img04">
@@ -1261,19 +1299,16 @@
     </figure>
 </div>
 
-                              
+</section>                 
                        
                                 
                                 
-                            </div>
-                        <!-- End: .grid .project-gallery -->
+                            
                         </div> 
                         <!-- End: .grid .project-gallery -->
                     </div>
                      <!-- End: .part -->
-                    <div class="btn-form col-sm-12">
-                        <button  class="btn btn-fill btn-block" id="form-submit">Load more</button>
-                    </div>
+                   
                 </div> 
                 <!-- End: .row -->
 
