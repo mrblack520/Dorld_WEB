@@ -18,11 +18,13 @@ class UserAuthentication
     {
         if($request->session()->has('userauth'))
         {
+            return redirect('page_login')->with('error' , 'Access Denied please login to proceed');        
+        }           
 
-            return $next($request);
-        }
+        
         else
         {
-            return redirect('page_login')->with('error' , 'Access Denied please login to proceed');        }
+            return $next($request);
         }
+}
 }

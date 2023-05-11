@@ -14,7 +14,7 @@ class UserController extends Controller
         $password    = $request->password ;
 
         $check_login = Auth::attempt(['password' => $password , 'email' => $email]);
-        dd($check_login);
+        // dd($check_login);
         //check if a user exists with the given crediantals
 
         if($check_login == false)
