@@ -417,21 +417,7 @@
 
                                 </section>
 
-                                <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">4</a></li>
-    <li class="page-item"><a class="page-link" href="#">5</a></li>
-    <li class="page-item"><a class="page-link" href="#">6</a></li>
-    <li class="page-item"><a class="page-link" href="#">7</a></li>
-    <li class="page-item"><a class="page-link" href="#">8</a></li>
-
-  
-  </ul>
-</nav>
+                                
 
                                 <section class="portfolioContainer row" id="section2">
 
@@ -1299,13 +1285,15 @@
     </figure>
 </div>
 
-</section>                 
+</section>        
+       
                        
                                 
                                 
                             
                         </div> 
                         <!-- End: .grid .project-gallery -->
+ 
                     </div>
                      <!-- End: .part -->
                    
@@ -1314,10 +1302,27 @@
 
 
                 
+
             </div>
-        </section> 
+            <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    
+    <li class="page-item"><a class="page-link" id="btn1" >1</a></li>
+    <li class="page-item"><a class="page-link" id="btn2">2</a></li>
+    <li class="page-item"><a class="page-link" id="btn3" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" id="btn4" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" id="btn5" href="#">5</a></li>
+    <li class="page-item"><a class="page-link" id="btn6" href="#">6</a></li>
+    <li class="page-item"><a class="page-link" id="btn7" href="#">7</a></li>
+    <li class="page-item"><a class="page-link" id="btn8" href="#">8</a></li>
+
+  
+  </ul>
+</nav> 
 
        
+        </section> 
+     
         
        
        
@@ -1628,9 +1633,36 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    -->
         
-                    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
  
-   
+    <script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#section1").show();
+    $("#section2").hide();
+    $("#section3").hide();
+    $("#section4").hide();
+    $("#section5").hide();
+    $("#section6").hide();
+    $("#section7").hide();
+    $("#section8").hide();
+
+
+  });
+  $("#btn2").click(function(){
+    $("#section1").hide();
+    $("#section2").show();
+    $("#section3").hide();
+    $("#section4").hide();
+    $("#section5").hide();
+    $("#section6").hide();
+    $("#section7").hide();
+    $("#section8").hide();
+
+
+  });
+});
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="assets/js/cardPagination.js"></script>
