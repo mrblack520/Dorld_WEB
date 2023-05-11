@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Auth;
+use DB;
 class UserController extends Controller
 {
     public function login(Request $request)
@@ -13,7 +14,7 @@ class UserController extends Controller
         $email       = $request->email ;
         $password    = $request->password ;
 
-        $check_login = Auth::attempt(['password' => $password , 'email' => $email]);
+        $check_login = DB::table("users")->where(['email'=>$email,'password'=>$password])->first();
         // dd($check_login);
         //check if a user exists with the given crediantals
 
