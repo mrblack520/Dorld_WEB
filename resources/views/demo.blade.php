@@ -334,13 +334,24 @@ display: inline-block;
     <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
         </div>
     
-    <!-- footer -->
-			<div class="footer">
-				<p>&copy;<script>document.write(new Date().getFullYear());</script> By <a href="https://www.instagram.com/mu___had/" target="_blank">Muhad Kv</a> </p>
-			</div>
-			
-<!-- //footer -->
+   
 
+        <div class="row">
+        <div class="col-lg-4">
+        <img width="100%" src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+  
+        </div>
+
+        <div class="col-lg-4">
+        <img width="100%" src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+  
+        </div>
+        <div class="col-lg-4">
+        <img width="100%" src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
+  
+        </div>
+ 
+</div>
 
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
