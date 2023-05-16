@@ -488,7 +488,7 @@ display: inline-block;
            PORTFOLIO
         ===================
         -->
-        
+        <section>
                
                     <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
                         <h3>Recent Portfolio</h3>
@@ -497,14 +497,14 @@ display: inline-block;
                     <div class="filters filter-button-group">
 	<ul>
 		<li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
-		<li><a href="javascript:void(0);" data-filter="bike">Graphic</a></li>
-		<li><a href="javascript:void(0);" data-filter="bus">Web/APP Development </a></li>
-        <li><a href="javascript:void(0);" data-filter="car">3D model</a></li>
+		<li><a href="javascript:void(0);" data-filter="Graphic">Graphic</a></li>
+		<li><a href="javascript:void(0);" data-filter="Web">Web/APP Development </a></li>
+        <li><a href="javascript:void(0);" data-filter="Web">3D model</a></li>
 	</ul>
 </div>
 	<div id="container" class=" isotope">
     
-		<div class="grid-item" data-filter="bike">
+		<div class="grid-item" data-filter="Graphic">
         <a class="popupimg" >
         <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
         </a>
@@ -512,7 +512,7 @@ display: inline-block;
         </div>
         
         
-        <div class="grid-item" data-filter="car">
+        <div class="grid-item" data-filter="Web">
         <a class="popupimg" >
         <img src="https://drive.google.com/u/0/uc?id=1x1Ci8s3_dKgRVqqRfDao52wLqGoumKdB&export=download">
         </a>
@@ -520,91 +520,11 @@ display: inline-block;
         </div>
         
         
-		<div class="grid-item" data-filter="bike">
+		<div class="grid-item" data-filter="Web">
         <a class="popupimg">
         <img src="https://drive.google.com/u/0/uc?id=1Izd6KrrgNXGmAV7QgQRpd7WTM-AfkE6x&export=download">
         </a>
           
-        </div>
-        
-        
-        <div class="grid-item" data-filter="car">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
-        </a>
-         
-        </div>
-        
-        
-		<div class="grid-item" data-filter="bike">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
-        </a>
-          
-        </div>
-        
-        
-        <div class="grid-item" data-filter="bus">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
-        </a>
-          
-        </div>
-        
-        
-		<div class="grid-item" data-filter="bus">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
-        </a>
-          
-        </div>
-        
-        
-        <div class="grid-item" data-filter="car">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
-        </a>
-         
-        </div>
-        
-        
-		<div class="grid-item" data-filter="bus">
-        <a class="popupimg">
-        <img src="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
-        </a>
-          
-        </div>
-        
-		<div class="grid-item" data-filter="car">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
-        </a>
-         
-        </div>
-        
-        
-		<div class="grid-item" data-filter="car">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
-        </a>
-         
-        </div>
-        
-        
-        <div class="grid-item" data-filter="bike">
-        <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
-        </a>
-          
-        </div>
-        
-        
-		<div class="grid-item" data-filter="car">
-        <a class="popupimg" >
-        <img class="imgq" src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
-        </a>
-         
-        </div>
 		
 
 	</div>
