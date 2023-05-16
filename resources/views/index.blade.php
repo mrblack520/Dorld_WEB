@@ -154,8 +154,8 @@ display: inline-block;
 }
 
 .filters li.active a{
-	color: #e3ca66;
-	border: 1px solid #e3ca66;
+	color: #b6b6b6;
+	border: 1px solid #b6b6b6;
 	border-radius: 15px;
 	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
 	padding: 10px 25px;
@@ -178,7 +178,7 @@ display: inline-block;
     box-shadow: -1px 1px 11px rgba(0,0,0,.1);
     border-radius: 25px;
     background-color: #232323;
-    border: .5px solid #e3ca66;
+    border: .5px solid #b6b6b6;
 	text-decoration:none;
 }
 
@@ -189,11 +189,11 @@ display: inline-block;
 }
 
 .isotope-pager .active{
-  color: #e3ca66 !important;
+  color: #b6b6b6 !important;
     box-shadow: -1px 1px 10px 5px rgba(0,0,0,.1);
     border-radius: 25px;
     background-color: #161616;
-    border: 1px dotted #e3ca66;
+    border: 1px dotted #b6b6b6;
 }
 
 .isotope-pager .prev{
