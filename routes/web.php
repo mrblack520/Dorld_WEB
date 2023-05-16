@@ -13,9 +13,6 @@ use App\Http\Controllers\UserController ;
 |
 */
 
-Route::get('/demo', function () {
-    return view('demo');
-});
 
 Route::get('/', function () {
     return view('index');
