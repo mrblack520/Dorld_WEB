@@ -95,7 +95,9 @@ display: inline-block;
 
     overflow: hidden;
     text-align: center;
-    width: 400px;
+    width:350px;
+    padding-left:10px;
+    border-radius:20px
 }
 .grid-item img{
 	width:100%;
@@ -104,6 +106,8 @@ display: inline-block;
     filter: gray;
     -webkit-filter: grayscale(1);
     transition: 0.9s;
+    border-radius:20px
+
 }
 .grid-item img:hover{
     filter: none;
@@ -498,7 +502,7 @@ display: inline-block;
         <li><a href="javascript:void(0);" data-filter="car">3D model</a></li>
 	</ul>
 </div>
-	<div id="container" class="container isotope">
+	<div id="container" class=" isotope">
     
 		<div class="grid-item" data-filter="bike">
         <a class="popupimg" >
@@ -597,7 +601,7 @@ display: inline-block;
         
 		<div class="grid-item" data-filter="car">
         <a class="popupimg" >
-        <img src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
+        <img class="imgq" src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
         </a>
          
         </div>
