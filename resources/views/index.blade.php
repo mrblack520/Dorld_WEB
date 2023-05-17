@@ -1263,7 +1263,7 @@ opener: function(openerElement) {
                          <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <img src="../../assets/images/b-3.png" alt="" class="img-fluid">
                             <div class="blog-inner">
-                                <h2><a href="blog-single ">Coming Soon</a></h2>
+                                <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
                                     <!-- <ul>
                                         <li><strong>Post On</strong><a href="#">24.11.19</a></li>
@@ -1279,7 +1279,7 @@ opener: function(openerElement) {
                         <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <img src="../../assets/images/b-2.png" alt="" class="img-fluid">
                             <div class="blog-inner">
-                                <h2><a href="blog-single ">Coming Soon</a></h2>
+                                <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
                                     <!-- <ul>
                                         <li><strong>Post On</strong><a href="#">24.11.19</a></li>
@@ -1295,7 +1295,7 @@ opener: function(openerElement) {
                         <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
                             <img src="../../assets/images/b-1.png" alt="" class="img-fluid">
                             <div class="blog-inner">
-                                <h2><a href="blog-single ">Coming Soon</a></h2>
+                                <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
                                     <!-- <ul>
                                         <li><strong>Post On</strong><a href="#">24.11.19</a></li>
