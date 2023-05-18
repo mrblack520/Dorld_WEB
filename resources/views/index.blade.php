@@ -338,11 +338,7 @@ display: inline-block;
                                
                                 
 
-                                <a type="button" href="page_login " class="btn btn-dark ">
-                                    <i class="fa fa-sign-in" aria-hidden="true"></i>
-                                    Login 
-                                  </a>
-                                
+                               
                               
                     </nav>
                 </div>
