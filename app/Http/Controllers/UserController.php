@@ -19,20 +19,20 @@ class UserController extends Controller
         $pass = $check_login->password;
         // dd($check_login);
         //check if a user exists with the given crediantals
-        if(Hash::check($password, $pass)){
+        if(Hash::check($password, $pass)  == false){
             //enter your code
         // }
         // if($check_login == false)
         // {
         //     // $userData = User::where('id' , $check_login[0]->id)->first();
-            return redirect('dashboard')-> with('error' , 'No Data found Invalid Crediantals');
-
+          
+        session()->put('userauth'); // stored data into userauth session
+        return redirect('page_login');
         }
         else
         {
-            
-            session()->put('userauth'); // stored data into userauth session
-            return redirect('page_login');
+            return redirect('dashboard');
+
         }
     }
 }

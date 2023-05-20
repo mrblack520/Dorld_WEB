@@ -22,6 +22,7 @@ class UserAuthentication
         }           
         
         
+        
         else
         {
             return redirect('page_login')->with('error' , 'Access Denied please login to proceed');        
