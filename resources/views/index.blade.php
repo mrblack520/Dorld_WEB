@@ -1051,195 +1051,131 @@ display: inline-block;
   <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
 <script>
-    $(document).ready( function() {
-
-var itemSelector = '.grid-item'; 
-
-var $container = $('#container').isotope({
-    itemSelector: itemSelector,
-    masonry: {
-      columnWidth: itemSelector,
-      isFitWidth: true
-    }
-});
-
-//Ascending order
-var responsiveIsotope = [
-    [480, 7],
-    [720, 10]
-];
-
-var itemsPerPageDefault = 12;
-var itemsPerPage = defineItemsPerPage();
-var currentNumberPages = 1;
-var currentPage = 1;
-var currentFilter = '*';
-var filterAtribute = 'data-filter';
-var pageAtribute = 'data-page';
-var pagerClass = 'isotope-pager';
-
-function changeFilter(selector) {
-    $container.isotope({
-        filter: selector
-    });
-}
-
-
-function goToPage(n) {
-    currentPage = n;
-
-    var selector = itemSelector;
-        selector += ( currentFilter != '*' ) ? '['+filterAtribute+'="'+currentFilter+'"]' : '';
-        selector += '['+pageAtribute+'="'+currentPage+'"]';
-
-    changeFilter(selector);
-}
-
-function defineItemsPerPage() {
-    var pages = itemsPerPageDefault;
-
-    for( var i = 0; i < responsiveIsotope.length; i++ ) {
-        if( $(window).width() <= responsiveIsotope[i][0] ) {
-            pages = responsiveIsotope[i][1];
-            break;
-        }
-
-        
-
-    }
-
-    return pages;
-}
-
-function setPagination() {
-
-    var SettingsPagesOnItems = function(){
-
-        var itemsLength = $container.children(itemSelector).length;
-        
-        var pages = Math.ceil(itemsLength / itemsPerPage);
-        var item = 1;
-        var page = 1;
-        var selector = itemSelector;
-            selector += ( currentFilter != '*' ) ? '['+filterAtribute+'="'+currentFilter+'"]' : '';
-        
-        $container.children(selector).each(function(){
-            if( item > itemsPerPage ) {
-                page++;
-                item = 1;
-            }
-            $(this).attr(pageAtribute, page);
-            item++;
-        });
-
-        currentNumberPages = page;
-
-    }();
-
-    var CreatePagers = function() {
-
-        var $isotopePager = ( $('.'+pagerClass).length == 0 ) ? $('<div class="'+pagerClass+'"></div>') : $('.'+pagerClass);
-
-        $isotopePager.html('');
-        
-        for( var i = 0; i < currentNumberPages; i++ ) {
-            var $pager = $('<a href="javascript:void(0);" class="pager" '+pageAtribute+'="'+(i+1)+'"></a>');
-                $pager.html(i+1);
-                
-                $pager.click(function(){
-                    var page = $(this).eq(0).attr(pageAtribute);
-                    goToPage(page);
-                });
-
-            $pager.appendTo($isotopePager);
-        }
-
-        $container.after($isotopePager);
-
-    }();
-
-}
-
-setPagination();
-goToPage(1);
-
-//Adicionando Event de Click para as categorias
-$('.filters a').click(function(){
-    var filter = $(this).attr(filterAtribute);
-    currentFilter = filter;
-
-    setPagination();
-    goToPage(1);
-
-
-});
-
-//Evento Responsivo
-$(window).resize(function(){
-    itemsPerPage = defineItemsPerPage();
-    setPagination();
-});
-
-
-
-});
-
-
-
-$(document).ready( function() {   
-
-// filter items on button click
-$('.filter-button-group').on( 'click', 'li', function() {
-var filterValue = $(this).attr('data-filter');
-$('.grid').isotope({ filter: filterValue });
-$('.filter-button-group li').removeClass('active');
-$(this).addClass('active');
-});
-})
-
-
-$(document).ready( function() {   
-
-// filter items on button click
-$('.isotope-pager').on( 'click', 'a', function() {
-var filterValue = $(this).attr('data-page');
-
-$('.isotope-pager a').removeClass('active');
-$(this).addClass('active');
-});
-})
-
-
-
-
-
-
-
-
-$(document).ready(function(){
-$('.popupimg').magnificPopup({
-type: 'image',
-mainClass: 'mfp-with-zoom', 
-gallery:{
-        enabled:true
-    },
-
-zoom: {
-enabled: true, 
-
-duration: 300, // duration of the effect, in milliseconds
-easing: 'ease-in-out', // CSS transition easing function
-
-opener: function(openerElement) {
-
-  return openerElement.is('img') ? openerElement : openerElement.find('img');
-}
-}
-
-});
-
-});
-
+  $(document).ready(function() {
+   var itemSelector = '.grid-item';
+   var $container = $('#container').isotope({
+     itemSelector: itemSelector,
+     masonry: {
+       columnWidth: itemSelector,
+       isFitWidth: true
+     }
+   });
+ 
+   var responsiveIsotope = [
+     [480, 7],
+     [720, 10]
+   ];
+ 
+   var itemsPerPageDefault = 12;
+   var itemsPerPage = defineItemsPerPage();
+   var currentNumberPages = 1;
+   var currentPage = 1;
+   var currentFilter = '*';
+   var filterAtribute = 'data-filter';
+   var pageAtribute = 'data-page';
+   var pagerClass = 'isotope-pager';
+ 
+   function changeFilter(selector) {
+     $container.isotope({
+       filter: selector
+     });
+   }
+ 
+   function goToPage(n) {
+     currentPage = n;
+     var selector = itemSelector;
+     selector += (currentFilter != '*') ? '[' + filterAtribute + '="' + currentFilter + '"]' : '';
+     selector += '[' + pageAtribute + '="' + currentPage + '"]';
+     changeFilter(selector);
+   }
+ 
+   function defineItemsPerPage() {
+     var pages = itemsPerPageDefault;
+     for (var i = 0; i < responsiveIsotope.length; i++) {
+       if ($(window).width() <= responsiveIsotope[i][0]) {
+         pages = responsiveIsotope[i][1];
+         break;
+       }
+     }
+     return pages;
+   }
+ 
+   function setPagination() {
+     var itemsLength = $container.children(itemSelector).length;
+     var pages = Math.ceil(itemsLength / itemsPerPage);
+     var item = 1;
+     var page = 1;
+     var selector = itemSelector;
+     selector += (currentFilter != '*') ? '[' + filterAtribute + '="' + currentFilter + '"]' : '';
+     $container.children(selector).each(function() {
+       if (item > itemsPerPage) {
+         page++;
+         item = 1;
+       }
+       $(this).attr(pageAtribute, page);
+       item++;
+     });
+     currentNumberPages = page;
+ 
+     var $isotopePager = ($('.' + pagerClass).length == 0) ? $('<div class="' + pagerClass + '"></div>') : $('.' + pagerClass);
+     $isotopePager.html('');
+     for (var i = 0; i < currentNumberPages; i++) {
+       var $pager = $('<a href="javascript:void(0);" class="pager" ' + pageAtribute + '="' + (i + 1) + '"></a>');
+       $pager.html(i + 1);
+       $pager.click(function() {
+         var page = $(this).eq(0).attr(pageAtribute);
+         goToPage(page);
+       });
+       $pager.appendTo($isotopePager);
+     }
+     $container.after($isotopePager);
+   }
+ 
+   setPagination();
+   goToPage(1);
+ 
+   $('.filters a').click(function() {
+     var filter = $(this).attr(filterAtribute);
+     currentFilter = filter;
+     setPagination();
+     goToPage(1);
+   });
+ 
+   $(window).resize(function() {
+     itemsPerPage = defineItemsPerPage();
+     setPagination();
+   });
+ 
+   $('.filter-button-group').on('click', 'li', function() {
+     var filterValue = $(this).attr('data-filter');
+     $('.grid').isotope({ filter: filterValue });
+     $('.filter-button-group li').removeClass('active');
+     $(this).addClass('active');
+   });
+ 
+   $('.isotope-pager').on('click', 'a', function() {
+     var filterValue = $(this).attr('data-page');
+     $('.isotope-pager a').removeClass('active');
+     $(this).addClass('active');
+   });
+ 
+   $('.popupimg').magnificPopup({
+     type: 'image',
+     mainClass: 'mfp-with-zoom',
+     gallery: {
+       enabled: true
+     },
+     zoom: {
+       enabled: true,
+       duration: 300,
+       easing: 'ease-in-out',
+       opener: function(openerElement) {
+         return openerElement.is('img') ? openerElement : openerElement.find('img');
+       }
+     }
+   });
+ });
+ 
 </script>
 
 
@@ -1261,13 +1197,9 @@ opener: function(openerElement) {
                             <div class="blog-inner">
                                 <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
-                                    <!-- <ul>
-                                        <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                                    </ul> -->
+                                
                                 </div>
-                                <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single ">Read More</a> -->
+                              
                             </div>
                         </div>
                     </div>
@@ -1277,13 +1209,9 @@ opener: function(openerElement) {
                             <div class="blog-inner">
                                 <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
-                                    <!-- <ul>
-                                        <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                                    </ul> -->
+                                
                                 </div>
-                                <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single ">Read More</a> -->
+                              
                             </div>
                         </div>
                     </div>
@@ -1293,13 +1221,9 @@ opener: function(openerElement) {
                             <div class="blog-inner">
                                 <h2><a href="# ">Coming Soon</a></h2>
                                 <div class="mh-blog-post-info">
-                                    <!-- <ul>
-                                        <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                                        <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                                    </ul> -->
+                                
                                 </div>
-                                <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                                <a href="blog-single ">Read More</a> -->
+                               
                             </div>
                         </div>
                     </div>
@@ -1510,86 +1434,75 @@ opener: function(openerElement) {
     <div>
                  <script>
 
-                    let camera
-                    let scene
-                    let renderer
-                    let material
-                    let mouseX = 0
-                    let mouseY = 0
-                    let windowHalfX = window.innerWidth / 2
-                    let windowHalfY = window.innerHeight / 2
-                    
-                    init()
-                    animate()
-                    
-                    function init () {
-                    camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 5, 1500)
-                    camera.position.z = 600
-                    
-                    scene = new THREE.Scene()
-                    scene.fog = new THREE.FogExp2(0x0000ff, 0.001)
-                    
-                    const geometry = new THREE.BufferGeometry()
-                    const vertices = []
-                    const size = 3000
-                    
-                    for ( let i = 0; i < 20000; i ++ ) {
-                        const x = (Math.random() * size + Math.random() * size) / 2 - size / 2
-                        const y = (Math.random() * size + Math.random() * size) / 2 - size / 2
-                        const z = (Math.random() * size + Math.random() * size) / 2 - size / 2
-                    
-                        vertices.push(x, y, z)
-                    }
-                    
-                    geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3))
-                    
-                    material = new THREE.PointsMaterial({
-                        size: 1,
-                        color: 0xffffff,
-                    })
-                    
-                    const particles = new THREE.Points(geometry, material)
-                    scene.add(particles)
-                    
-                    renderer = new THREE.WebGLRenderer()
-                    renderer.setPixelRatio(window.devicePixelRatio)
-                    renderer.setSize(window.innerWidth, window.innerHeight)
-                    document.body.appendChild(renderer.domElement)
+let camera, scene, renderer, material, mouseX = 0, mouseY = 0, windowHalfX = window.innerWidth / 2, windowHalfY = window.innerHeight / 2;
 
-                    
-                        // document.body.style.touchAction = 'none'
-                        document.body.addEventListener('pointermove', onPointerMove)
-                        window.addEventListener('resize', onWindowResize)
-                 }
-                    
-                    function onWindowResize () {
-                    windowHalfX = window.innerWidth / 2
-                    windowHalfY = window.innerHeight / 2
-                    
-                    camera.aspect = window.innerWidth / window.innerHeight
-                    camera.updateProjectionMatrix()
-                    renderer.setSize(window.innerWidth, window.innerHeight)
-                    }
-                    
-                    function onPointerMove (event) {
-                    mouseX = event.clientX - windowHalfX 
-                    mouseY = event.clientY - windowHalfY
-                    }
-                    
-                    function animate () {
-                    requestAnimationFrame(animate)
-                    render()
-                    }
-                    
-                    function render () {
-                    camera.position.x += (mouseX * 2 - camera.position.x) * 0.02
-                    camera.position.y += (-mouseY * 2 - camera.position.y) * 0.02
-                    camera.lookAt(scene.position)
-                    renderer.render(scene, camera)
-                    scene.rotation.x += 0.001
-                    scene.rotation.y += 0.002
-                    }
-         
+$(document).ready(function() {
+  init();
+  animate();
+});
+
+function init() {
+  camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 5, 1500);
+  camera.position.z = 600;
+
+  scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x0000ff, 0.001);
+
+  const geometry = new THREE.BufferGeometry();
+  const vertices = [];
+  const size = 3000;
+
+  for (let i = 0; i < 20000; i++) {
+    const x = (Math.random() * size + Math.random() * size) / 2 - size / 2;
+    const y = (Math.random() * size + Math.random() * size) / 2 - size / 2;
+    const z = (Math.random() * size + Math.random() * size) / 2 - size / 2;
+
+    vertices.push(x, y, z);
+  }
+
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+
+  material = new THREE.PointsMaterial({ size: 1, color: 0xffffff });
+
+  const particles = new THREE.Points(geometry, material);
+  scene.add(particles);
+
+  renderer = new THREE.WebGLRenderer();
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  $('body').append(renderer.domElement);
+
+  $(document.body).on('pointermove', onPointerMove);
+  $(window).on('resize', onWindowResize);
+}
+
+function onWindowResize() {
+  windowHalfX = window.innerWidth / 2;
+  windowHalfY = window.innerHeight / 2;
+
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+}
+
+function onPointerMove(event) {
+  mouseX = event.clientX - windowHalfX;
+  mouseY = event.clientY - windowHalfY;
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+  render();
+}
+
+function render() {
+  camera.position.x += (mouseX * 2 - camera.position.x) * 0.02;
+  camera.position.y += (-mouseY * 2 - camera.position.y) * 0.02;
+  camera.lookAt(scene.position);
+  renderer.render(scene, camera);
+}
+
+
                         </script>
                         </div>
                         <script>
@@ -1606,21 +1519,15 @@ function change(){
       
       background-image: url("assets/images/sd.jpg") ;
       
-      /* background-color: rgba(0,0,0,1); */
-      
-      /* position: fixed; */
-      /* background-position: center;  */
-      /* background-size: cover; */
+     
       background-repeat: no-repeat;
-      /* background-size:auto; */
-      /* background-position-y: center; */
+ 
       background-size: cover  ;
       width: 100%; 
       height: 100%      ;
-      /* z-index: -999; */
+ 
       background-attachment: fixed;
 
-      /* filter: brightness(50%); */
       
 
       }
